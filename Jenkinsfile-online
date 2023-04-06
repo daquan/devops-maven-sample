@@ -11,7 +11,7 @@ pipeline {
 
     environment {
         DOCKER_CREDENTIAL_ID = 'daquan'
-        GITHUB_CREDENTIAL_ID = 'github-cert'
+        GITHUB_CREDENTIAL_ID = 'github-id'
         KUBECONFIG_CREDENTIAL_ID = 'kubeconfig-cert'
         REGISTRY = 'docker.io'
         DOCKERHUB_NAMESPACE = 'daquan'
